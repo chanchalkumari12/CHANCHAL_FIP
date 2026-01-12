@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Details</title>
+    <style>
+        body {
+            background-color: #2f5f8f;
+            font-family: Arial, sans-serif;
+        }
+        .form-box {
+            width: 500px;
+            margin: 50px auto;
+            background-color: #3c6fa3;
+            padding: 20px;
+            border: 2px solid white;
+            color: white;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 8px;
+        }
+        input, select {
+            width: 100%;
+            padding: 5px;
+        }
+        .btn {
+            background-color: #7fbf3f;
+            border: none;
+            padding: 8px 15px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="form-box">
+    <h3>Registration Details</h3>
+
+    <form>
+        <table>
+            <tr>
+                <td>University:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Institute:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Branch:</td>
+                <td>
+                    <select>
+                        <option>-- select --</option>
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>ME</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Degree:</td>
+                <td>
+                    <select>
+                        <option>-- select --</option>
+                        <option>B.Tech</option>
+                        <option>M.Tech</option>
+                    </select>
+                    <input type="radio" name="status"> Pursuing
+                    <input type="radio" name="status"> Completed
+                </td>
+            </tr>
+
+            <tr>
+                <td>Average CPI:</td>
+                <td>
+                    <input type="number" style="width:60px;"> 
+                    Upto 
+                    <input type="number" style="width:60px;"> 
+                    Th Semester
+                </td>
+            </tr>
+
+            <tr>
+                <td>Experience:</td>
+                <td>
+                    <input type="number" style="width:60px;"> Years
+                </td>
+            </tr>
+
+            <tr>
+                <td>Your Website or Blog:</td>
+                <td><input type="text" value="http://"></td>
+            </tr>
+        </table>
+
+        <div class="center">
+            <br>
+            <button class="btn">Step 2</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
